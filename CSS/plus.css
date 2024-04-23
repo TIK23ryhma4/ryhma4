@@ -33,7 +33,7 @@ html{
     padding-bottom: 10px;
 }
 
-button {
+#button, #nappi {
     background-color: #CCE5FF;
     position: fixed;
     bottom: 20px;
