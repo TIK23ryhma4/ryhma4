@@ -1,4 +1,91 @@
-html {
-    background-image: url(../img/miinus_tausta.png);
+
+
+:root{
+    --first-color:#E0E0E0;
+    --second-color:#CCE5FF;
+    --border-color:#000000;
+}   
+
+body{
+    background: var(--second-color);
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    
+}
+
+.tausta{
+    
+    padding-top: 15px;
+    background: var(--first-color);
+    width: 400px;
+    height: 600px;
+    border: 3px solid var(--border-color);
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kenttä{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 300px;
+    margin: 0 0 20px;
+    background: var(--first-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.kenttä .control{
+    width: 75px;
+    height: 65px;
+    border: 3px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button{
+
+    width: 305px;
+    padding: 7px 12px;
+    background: var(--second-color);
+    color: var(--border-color);
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button.hide{
+    display: none;
 }
 
