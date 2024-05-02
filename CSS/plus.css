@@ -1,42 +1,96 @@
-html{
+html {
     background-color: #E0E0E0;
 }
 
-.info{
+
+#wrapper{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.info {
     background-color: #CCE5FF;
     border: 1px solid black;
     width: 45%;
-    text-align: center;
     position: absolute;
+    text-align: center;
+    padding: 1em;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.form{
+.form {
     background-color: #CCE5FF;
     border: 1px solid black;
-    width: 50%;
+    width: 45%;
     height: 60%;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 50px;
-    padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
 }
 
-.question{
-    font-size: larger;
+.question {
+    font-size: 1em;
     padding-bottom: 10px;
 }
 
-#button, #nappi {
+#button,
+#nappi {
     background-color: #CCE5FF;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 1em;
+    right: 1em;
 }
 
+#tarkistus,
+#tarkista {
+    background-color: #CCE5FF;
+    position: fixed;
+    bottom: 10%;
+    right: 50%;
+}
+
+
+.info,
+.form {
+    font-size: 1em;
+    width: 50%;
+    height: auto;
+}
+
+#count {
+    background-color: #CCE5FF;
+    border: 1px solid black;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .info,
+    .form {
+        width: 80%;
+    }
+
+    #tarkistus,
+    #tarkista {
+        bottom: 12%;
+        right: 10%;
+    }
+
+    #count {
+        width: 20%;
+        bottom: 8%;
+        right: 80%;
+    }
+}

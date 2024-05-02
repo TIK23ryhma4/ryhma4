@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/plus.css">
-    <script src="./js/functions.js" defer></script>
+    <script src="./JS/plus.js" defer></script>
     <title>Matikkatehtäviä</title>
 </head>
 
@@ -31,7 +31,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Tehtävät 
+                            Tehtävät
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="./plus.html">Pluslaskut</a></li>
@@ -44,41 +44,51 @@
             </div>
         </div>
     </nav>
-    <div class="info">
-        <h1>Monivalintatehtävä: Pluslaskut</h1>
-        <p>Tehtävänäsi on valita alla olevista vastauksista oikea, kun olet valmis paina <b>"Jatka"</b></p>
-    </div>
-    <div class="form">
-        <div class="question">
-            Kuinka paljon on 11 + 4?
+    <div id="wrapper">
+        <div class="info">
+            <h1>Monivalintatehtävä: Pluslaskut</h1>
+            <p>Tehtävänäsi on valita alla olevista vastauksista oikea, tarkistaaksesi tehtävän paina <b>"Tarkista"</b>
+                jatkaaksesi seuraavaan tehtävään paina <b>"Jatka"</b></p>
         </div>
-        <form id="kysely">
-            <input type="radio" id="option1" name="answer" value="right"><label for="option1">15</label><br>
-            <input type="radio" id="option2" name="answer" value="wrong"><label for="option2">13</label><br>
-            <input type="radio" id="option3" name="answer" value="wrong"><label for="option3">16</label><br>
-            <input type="radio" id="option4" name="answer" value="wrong"><label for="option4">17</label><br>
-        </form><br>
-        <div class="question">
-            Kuinka paljon on 7 + 6?
+        <div class="form">
+            <div class="question">
+                Kuinka paljon on 11 + 4?
+            </div>
+            <form>
+                <input type="radio" name="answer1" value="right"><label for="option1">15</label><br>
+                <input type="radio" name="answer1" value="wrong"><label for="option2">13</label><br>
+                <input type="radio" name="answer1" value="wrong"><label for="option3">16</label><br>
+                <input type="radio" name="answer1" value="wrong"><label for="option4">17</label><br>
+            </form><br>
+            <div class="question">
+                Kuinka paljon on 7 + 6?
+            </div>
+            <form>
+                <input type="radio" name="answer2" value="wrong"><label for="option1">9</label><br>
+                <input type="radio" name="answer2" value="wrong"><label for="option2">12</label><br>
+                <input type="radio" name="answer2" value="right"><label for="option3">13</label><br>
+                <input type="radio" name="answer2" value="wrong"><label for="option4">11</label><br>
+            </form><br>
+            <div class="question">
+                Kuinka paljon on 9 + 9?
+            </div>
+            <form>
+                <input type="radio" name="answer3" value="wrong"><label for="option1">17</label><br>
+                <input type="radio" name="answer3" value="wrong"><label for="option2">21</label><br>
+                <input type="radio" name="answer3" value="wrong"><label for="option3">19</label><br>
+                <input type="radio" name="answer3" value="right"><label for="option4">18</label><br>
+            </form>
         </div>
-        <form id="kysely">
-            <input type="radio" id="option1" name="answer" value="wrong"><label for="option1">9</label><br>
-            <input type="radio" id="option2" name="answer" value="wrong"><label for="option2">12</label><br>
-            <input type="radio" id="option3" name="answer" value="right"><label for="option3">13</label><br>
-            <input type="radio" id="option4" name="answer" value="wrong"><label for="option4">11</label><br>
-        </form><br>
-        <div class="question">
-            Kuinka paljon on 9 + 9?
+        <div id="count">
+            <P>Oikein: <span id="correctCount">0</span></P>
+            <P>Väärin: <span id="incorrectCount">0</span></P>
         </div>
-        <form id="kysely">
-            <input type="radio" id="option1" name="answer" value="wrong"><label for="option1">17</label><br>
-            <input type="radio" id="option2" name="answer" value="wrong"><label for="option2">21</label><br>
-            <input type="radio" id="option3" name="answer" value="wrong"><label for="option3">19</label><br>
-            <input type="radio" id="option4" name="answer" value="right"><label for="option4">18</label><br>
-        </form>
-    </div>
-    <div id="button">
-        <a href="./miinus.html"><button id="nappi">Jatka</button></a>
+        <div id="button">
+            <a href="./miinus.html"><button id="nappi">Jatka</button></a>
+        </div>
+        <div id="tarkistus">
+            <button id="tarkista">Tarkista</button>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
