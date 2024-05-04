@@ -76,3 +76,7 @@ button.hide{
     display: none;
 }
 
+html {
+    background-image: url(../img/jakobackground.jpeg);
+    }
+    
