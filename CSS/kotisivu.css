@@ -19,8 +19,8 @@ background-image: url(../img/jakobackground.jpeg);
 #button {
     background-color: #CCE5FF;
     width: 4%;
-    padding-left: 17px;
     position: fixed;
+    text-align: center;
     bottom: 30%;
     right: 50%;
 }
