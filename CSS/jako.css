@@ -1,0 +1,44 @@
+
+body{
+    background-color: #E0E0E0;
+    background-image: url(../img/jakobackground.jpeg);
+}
+
+.form{
+    background-color: #CCE5FF;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    bottom: 4%;
+    
+}
+
+.info{
+    background-color: #CCE5FF;
+    border: 2px solid black;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    bottom: 74%;
+}
+#button{
+    background-color: #CCE5FF;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit,
+#info{
+    background-color: #CCE5FF;
+    position: fixed;
+    bottom: 5%;
+    right: 47%;
+    border-radius: 5px;
+}
