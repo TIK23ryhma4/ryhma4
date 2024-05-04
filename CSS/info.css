@@ -1,8 +1,7 @@
-body{
-    background-color: #E0E0E0;
-    background-image: url(../img/Taustakuva_tiles.png);
-}
-
+html {
+    background-image: url(../img/jakobackground.jpeg);
+    }
+    
 #container {
     
     background-color: aliceblue;
