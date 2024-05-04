@@ -1,0 +1,22 @@
+html {
+    background-image: url(../img/jakobackground.jpeg);
+    }
+
+.pisteet{
+    background-color: #CCE5FF;
+    border: 1px solid black;
+    width: 18%;
+    height: 35%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 2em;
+    padding-left: 5.5em;
+    }
+
+    @media screen and (max-width: 768px) {
+        .pisteet{
+            width: 80%;
+        }
+    }
