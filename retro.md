@@ -1,5 +1,8 @@
 Retro 1
 Aloitettiin web-projekti. Ensin luotiin Githubiin ja hacknplaniin yhteiset projektit. Aloitettiin hacknplanissa ensimmäinen sprintti, jossa tehtiin Verkkosivun UI-suunnitelma sekä luotiin kansiorakenne ja jaettiin se githubin kautta. Suunniteltiin myös seuraavan viikon sprinttiä ja tehtiin työnjako siitä kuka tekee mitäkin. Projektin aiheen on matikkapeli, jossa kaikki tekevät erilaisen pelin. Pelissä on neljä tasoa jotka ovat +, -, * ja / -lasku. Aluksi luodaan yhteinen pohja ja infosivu, jonka jälkeen jokainen tekee oman sivun hyödyntäen yhteistä pohjaa. Pelissä on tarkoitus edetä taso kerrallaan ja lopussa näet yhteenvedon tuloksistasi. Värimaailma ja tyylit ovat päätetty ennakkoon. Tehtiin ryhmätyötä discordissa kahtena päivänä ensimmäisellä viikolla.
 
-Retro 17.4
+Retro 2
 Kokoonnuttiin discordiin jatkamaan projektia. Luotiin UI-suunnitelman mukainen infosivu. Sivulla on nyt taustakuva, esittelyteksti ja nappi josta pääsee ensimmäiseen peliin. Luotiin myös html sivut kaikille eri peleille, joita osa on jo alkanut tekemään ja joita seuraavaksi kaikki tekevät itsenäisesti. Seuraavalla kerralla kun kokoonnutaan, olisi tarkoitus että pelit olisivat jo lähes valmiita. Sen lisäksi pitäisi yhdessä katsoa, että miten saadaan peli etenemään aina sivusta seuraavaan kun on suorittanut yhnden. Myös Navbarista pitäisi pystyä siirtymään yhteen tiettyyn peliin. Seuraavilla kerroilla tarkoituksena olisi myös tehdä jonkinlainen pisteenlasku järjestelmä, joka näyttäisi lopuksi yhteispisteet.
+
+Retro 3
+Aaposta ei ole kuulunut, joten hän jäi pois projektista. Pelit alkavat olla valmiita. Hieman tullut muutoksia ulkoasuun mm. sivujen tausta vaihdettu värikkäämmäksi. Javascriptit on tehty kaikkiin peleihin ja ne toimivat. Vielä on pientä säätöä responsiivisuuden ja tehtävien pisteidenlaskun kanssa.

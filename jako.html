@@ -48,7 +48,7 @@
     </div>
     <div class="form">
         <div class="question"><br>
-            1. Kuinka paljon on neljä jaettuna kahdelle?
+            1. Kuinka paljon on neljä jaettuna kahdella?
         </div>
         <label for="jako">Valitse oikea vastaus:</label>
             <select name="jako" id="jako">
@@ -59,7 +59,7 @@
                 <option value="wrong">0</option>
             </select>
         <div class="question"><br><br>
-            2. Kuinka paljon on yhdeksän jaettuna kolmelle?
+            2. Kuinka paljon on yhdeksän jaettuna kolmella?
         </div>
         <label for="jako">Valitse oikea vastaus:</label>
             <select name="jako" id="jako">
@@ -70,7 +70,7 @@
                 <option value="wrong">9</option>
             </select>
         <div class="question"><br><br>
-            3. Kuinka paljon on viisitoista jaettuna kolmelle?
+            3. Kuinka paljon on viisitoista jaettuna kolmella?
         </div>
         <label for="jako">Valitse oikea vastaus:</label>
             <select name="jako" id="jako">
@@ -81,23 +81,28 @@
                 <option value="right">5</option>
             </select>
         <div class="question"><br><br>
-            4. Kuinka paljon on kahdeksan toista jaettuna kolmelle?
+            4. Kuinka paljon on kuusitoista jaettuna neljällä?
         </div>
         <label for="jako">Valitse oikea vastaus:</label>
             <select name="jako" id="jako">
                 <option value="wrong"> </option>
-                <option value="wrong">4</option>
+                <option value="wrong">6</option>
                 <option value="wrong">9</option>
-                <option value="right">6</option>
+                <option value="right">4</option>
                 <option value="wrong">8</option>
             </select>
     </div>
     <div id="button">
-        <a href="./kooste.html"><button id="button">Tulokset</button></a> 
+        <a href="./kooste.html"><button id="button">Jatka</button></a> 
     </div>
     <div id="submit">
         <button id="submit">Tarkista</button>
     </div>
+    <div id="tulos">
+        <p>Oikein: <span id="correct">0</span></p>
+        <p>Väärin: <span id="incorrect">0</span></p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/jako.js"></script>
 </body>
 </html>
