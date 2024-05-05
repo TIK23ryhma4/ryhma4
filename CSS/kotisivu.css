@@ -30,6 +30,7 @@ background-image: url(../img/jakobackground.jpeg);
 
   @media screen and (max-width: 768px) {
     #button, #nappi{
+      width: 10%;
         bottom: 30%;
         right: 47%;
     }
