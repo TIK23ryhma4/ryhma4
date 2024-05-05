@@ -45,10 +45,35 @@ body{
 #tulos{
     background-color: #CCE5FF;
     position: fixed;
-    bottom: 1em;
-    right: 5em;
+    bottom: 4%;
+    right: 17%;
     border: 2px solid black;
     height: 11%;
-    width: 11%;
+    width: 7%;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .info{
+        width: 40%;
+        left: 30%;
+    }
+
+    .form{
+        width: 60%;
+        left: 20%;
+    }
+
+    #tulos{
+        right: 1em;
+        bottom: 10%;
+    }
+
+    #button{
+        bottom: 4%;
+    }
+
+    #tulos{
+        width: 12%;
+    }
 }
